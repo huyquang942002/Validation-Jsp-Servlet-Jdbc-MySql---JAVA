@@ -1,2 +1,4 @@
 eclipse.preferences.version=1
+encoding//WebContent/loginfail.jsp=UTF-8
+encoding//WebContent/loginsuccess.jsp=UTF-8
 encoding//src/com/luv2code/web/jdbc/StudentControllerServlet.java=UTF-8

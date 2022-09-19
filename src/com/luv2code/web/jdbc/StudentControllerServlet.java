@@ -88,10 +88,8 @@ public class StudentControllerServlet extends HttpServlet {
 			dispatcher.forward(request, response);	
 			
 		} else {
-//			System.out.println("Vui lòng nhập đúng tài khoản , mật khẩu");
-			
 			RequestDispatcher dispatcher = 
-					request.getRequestDispatcher("/login.jsp");
+					request.getRequestDispatcher("/loginfail.jsp");
 			dispatcher.forward(request, response);
 		}
 	}
